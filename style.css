@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background-color:whitesmoke;
+
+}
+
+.tituloPrincipal{
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.formulario{
+    width: 450px;
+    padding: 10px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.titulorFormulario{
+    text-align: center;
+    margin: 10px 0px;
+
+}
+
+.caixaCampo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 0px;
+}
+
+.btnEnviar{
+    width: 100%;
+    background-color: dodgerblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.campoFormulario{
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
